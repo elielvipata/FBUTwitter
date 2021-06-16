@@ -75,7 +75,7 @@
 
 - (IBAction)onTweetButton:(id)sender {
     
-    NSString * user = [@" @" stringByAppendingString:self.user];
+    NSString * user = [@"@" stringByAppendingString:self.user];
     NSString * text = [user stringByAppendingString: self.tweetTextField.text];
     if(text.length != 0){
         [[APIManager shared] postReplyWithText:self.idStr :text completion:^(Tweet *tweet, NSError *error) {

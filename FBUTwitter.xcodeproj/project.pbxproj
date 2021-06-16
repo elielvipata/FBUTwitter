@@ -17,6 +17,7 @@
 		00487DAA2675B002000A6A3A /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00487DA92675B002000A6A3A /* ComposeViewController.m */; };
 		00B7697E26795A6300090AF6 /* MentionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B7697D26795A6300090AF6 /* MentionsViewController.m */; };
 		00B7698226795C4100090AF6 /* MentionsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B7698126795C4100090AF6 /* MentionsCell.m */; };
+		00B76985267991A100090AF6 /* twitter.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00B76984267991A000090AF6 /* twitter.gif */; };
 		6AD278DA20BC4B950085BC29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD278D920BC4B950085BC29 /* AppDelegate.m */; };
 		6AD278E020BC4B950085BC29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD278DE20BC4B950085BC29 /* Main.storyboard */; };
 		6AD278E220BC4B970085BC29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD278E120BC4B970085BC29 /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 		00B7697D26795A6300090AF6 /* MentionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentionsViewController.m; sourceTree = "<group>"; };
 		00B7698026795C4100090AF6 /* MentionsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MentionsCell.h; sourceTree = "<group>"; };
 		00B7698126795C4100090AF6 /* MentionsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentionsCell.m; sourceTree = "<group>"; };
+		00B76984267991A000090AF6 /* twitter.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = twitter.gif; sourceTree = "<group>"; };
 		1397EA94AE1DE5F26C1724FD /* Pods-twitter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twitter.release.xcconfig"; path = "Pods/Target Support Files/Pods-twitter/Pods-twitter.release.xcconfig"; sourceTree = "<group>"; };
 		6AD278D520BC4B950085BC29 /* FBUTwitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBUTwitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD278D820BC4B950085BC29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		6AD278D720BC4B950085BC29 /* twitter */ = {
 			isa = PBXGroup;
 			children = (
+				00B76984267991A000090AF6 /* twitter.gif */,
 				6AD2790320BCC01B0085BC29 /* View Controllers */,
 				6AD278FF20BCBF280085BC29 /* Views */,
 				6AD278F720BCB6900085BC29 /* API */,
@@ -257,6 +260,7 @@
 			files = (
 				6AD278E520BC4B970085BC29 /* LaunchScreen.storyboard in Resources */,
 				6AD278E220BC4B970085BC29 /* Assets.xcassets in Resources */,
+				00B76985267991A100090AF6 /* twitter.gif in Resources */,
 				6AD278E020BC4B950085BC29 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
