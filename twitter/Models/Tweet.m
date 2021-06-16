@@ -38,6 +38,13 @@
         self.favorited = [dictionary[@"favorited"] boolValue];
         self.retweetCount = [dictionary[@"retweet_count"] intValue];
         self.retweeted = [dictionary[@"retweeted"] boolValue];
+        NSDictionary * entities = dictionary[@"entities"];
+        NSMutableArray * media = entities[@"media"];
+
+        if(media != nil){
+            self.media_url = media[0][@"media_url_https"];
+        }
+//        self.media_url = dictionary[@"entities"][@"media"][@"media_url_https"];
         
         // TODO: initialize user
         NSDictionary *user = dictionary[@"user"];
@@ -50,6 +57,7 @@
         formatter.dateFormat = @"E MMM d HH:mm:ss Z y";
         // Convert String to Date
         NSDate *date = [formatter dateFromString:createdAtOriginalString];
+        self.dateCreated = createdAtOriginalString;
         // Configure output format
         formatter.dateStyle = NSDateFormatterShortStyle;
         formatter.timeStyle = NSDateFormatterNoStyle;

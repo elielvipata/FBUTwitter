@@ -15,7 +15,11 @@
     if (self) {
         self.name = dictionary[@"name"];
         self.screenName = dictionary[@"screen_name"];
-        
+        self.profileImageURL = dictionary[@"profile_image_url"];
+        self.followers = [NSString stringWithFormat:@"%@", dictionary[@"followers_count"]];
+        self.following = [NSString stringWithFormat:@"%@", dictionary[@"friends_count"]];
+//        self.description = dictionary[@"description"];
+//        NSLog(@"%@",dictionary[@"description"]);
     }
     return self;
 }
