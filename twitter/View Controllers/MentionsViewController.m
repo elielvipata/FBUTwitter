@@ -64,11 +64,11 @@
     tweetCell.tweet = tweet;
     [tweetCell refreshData];
     if(tweet.media_url == nil){
-        CGRect newFrame = tweetCell.tweetImage.frame;
-
-        newFrame.size.width = 0;
-        newFrame.size.height = 0;
-        [tweetCell.tweetImage setFrame:newFrame];
+//        CGRect newFrame = tweetCell.tweetImage.frame;
+//
+//        newFrame.size.width = 0;
+//        newFrame.size.height = 0;
+//        [tweetCell.tweetImage setFrame:newFrame];
     }else{
         //Set Profile Image
         NSString *imageString = tweet.media_url;
