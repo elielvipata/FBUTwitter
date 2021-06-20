@@ -27,6 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) Tweet *tweet;
 @property (weak, nonatomic) IBOutlet UIImageView *tweetImage;
 @property (weak, nonatomic) IBOutlet UIButton *replyTweet;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *imageHeight;
 
 
 -(void)refreshData;
